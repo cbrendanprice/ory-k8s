@@ -3,7 +3,7 @@ appVersion: "v0.40.7"
 description: A Helm chart for deploying ORY Oathkeeper in Kubernetes
 name: oathkeeper
 icon: https://raw.githubusercontent.com/ory/docs/master/docs/static/img/logo-oathkeeper.svg
-version: 0.40.0
+version: 0.40.1
 keywords:
   - zero-trust
   - beyond-corp
