@@ -111,6 +111,40 @@ entries:
   oathkeeper:
   - apiVersion: v2
     appVersion: v0.40.7
+    created: "2024-03-27T19:07:15.916860067Z"
+    dependencies:
+    - alias: oathkeeper-maester
+      condition: maester.enabled
+      name: oathkeeper-maester
+      repository: file://../oathkeeper-maester
+      version: 0.40.0
+    description: A Helm chart for deploying ORY Oathkeeper in Kubernetes
+    digest: 13c82f7875ec43d427e1b156b95fb104d6fa0cf72dbed354c796bfedf736f3a5
+    home: https://www.ory.sh/
+    icon: https://raw.githubusercontent.com/ory/docs/master/docs/static/img/logo-oathkeeper.svg
+    keywords:
+    - zero-trust
+    - beyond-corp
+    - access-control
+    - reverse-proxy
+    - nginx
+    - envoy
+    - ambassador
+    - auth-filter
+    maintainers:
+    - email: office@ory.sh
+      name: ORY Team
+      url: https://www.ory.sh/
+    name: oathkeeper
+    sources:
+    - https://github.com/ory/oathkeeper
+    - https://github.com/ory/k8s
+    type: application
+    urls:
+    - https://github.com/cbrendanprice/ory-k8s/releases/download/oathkeeper-0.40.2/oathkeeper-0.40.2.tgz
+    version: 0.40.2
+  - apiVersion: v2
+    appVersion: v0.40.7
     created: "2024-03-27T18:29:27.031156442Z"
     dependencies:
     - alias: oathkeeper-maester
@@ -171,4 +205,4 @@ entries:
     urls:
     - https://github.com/cbrendanprice/ory-k8s/releases/download/oathkeeper-maester-0.40.0/oathkeeper-maester-0.40.0.tgz
     version: 0.40.0
-generated: "2024-03-27T18:29:27.137001624Z"
+generated: "2024-03-27T19:07:16.053681777Z"
